@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding= "16dp"
+    tools:context=".AboutCampus"
+    android:background="#F0F8FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:src="@drawable/rgilogo"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBE4E4"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+
+            android:text="About"/>
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="300"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/RGIAbout"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/rajinstitutes"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBE4E4"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="16dp"
+
+            android:text="Highlights" />
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="300"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/riethighlights" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/allinspiringcampus"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBE4E4"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="16dp"
+
+            android:text="Campus" />
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="300"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/Campus" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/campus"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBE4E4"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="16dp"
+
+            android:text="Life at Campus" />
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="300"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/Lifeatcampus" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/getreadycampus"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

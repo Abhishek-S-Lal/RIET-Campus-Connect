@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".NalandaTab">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:src="@drawable/rgilogo"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E87DA"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+
+            android:text="GROUND FLOOR"
+            android:textColor="#F5EEEE"
+            android:textStyle="bold"/>
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="40"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/floor"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E87DA"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+
+            android:text="FIRST FLOOR"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/images">
+
+        </ImageButton>
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="40"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/floor1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E87DA"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+
+            android:text="SECOND FLOOR"
+            android:textColor="#FFFF"
+            android:textStyle="bold"/>
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="40"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/floor2"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E87DA"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+
+            android:text="THIRD FLOOR"
+            android:textColor="#FFFF"
+            android:textStyle="bold"/>
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="40"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/floor3"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E87DA"
+            android:textSize="25sp"
+            android:paddingLeft="8dp"
+
+            android:text="FOURTH FLOOR"
+            android:textColor="#FFFF"
+            android:textStyle="bold"/>
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="17sp"
+            app:trimExpandedText="Show more"
+            app:trimCollapsedText="Show less"
+            app:trimMode="trimModeLength"
+            app:trimLength="40"
+            app:colorClickableText="@color/colorPrimaryDark"
+
+            android:text="@string/GroundFloor"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

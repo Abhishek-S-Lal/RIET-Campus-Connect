@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:layout_marginBottom="56dp"
+    android:layout_marginTop="60dp"
+    android:padding="16dp"
+    tools:context=".VisitorHomeFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="#F4F9FB"
+            android:drawableTop="@drawable/baseline_business_black_48dp"
+            android:padding="10dp"
+            android:text="Facilities"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F0F0F0"
+            android:padding="10dp"
+            android:layout_marginLeft="4dp"
+            android:drawableTop="@drawable/baseline_fastfood_black_48dp"
+            android:text="Food Court"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F5FAFC"
+            android:layout_marginRight="4dp"
+            android:padding="10dp"
+            android:drawableTop="@drawable/baseline_location_on_black_48dp"
+            android:text="Campus Location"
+            android:onClick="openMap"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F0F0F0"
+            android:padding="10dp"
+            android:layout_marginLeft="4dp"
+            android:drawableTop="@drawable/baseline_commute_black_48dp"
+            android:text="How to reach"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="1">
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"
+            android:background="#F4F9FB"
+            android:drawableTop="@drawable/baseline_directions_bike_black_48dp"
+            android:text="Nearby"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EFEFEF"
+            android:text="Emergency Contacts"
+            android:layout_marginLeft="4dp"
+            android:padding="10dp"
+            android:drawableTop="@drawable/baseline_ring_volume_black_48dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="#F3F8FA"
+            android:drawableTop="@drawable/baseline_local_phone_black_48dp"
+            android:padding="10dp"
+            android:text="Contact us"
+            android:textSize="15sp" />
+
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F3F8FA"
+            android:padding="10dp"
+            android:layout_marginLeft="4dp"
+            android:drawableTop="@drawable/baseline_edit_black_48dp"
+            android:text="Feedback"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

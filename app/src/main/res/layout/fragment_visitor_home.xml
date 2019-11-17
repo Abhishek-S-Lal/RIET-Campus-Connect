@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="56dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".VisitorExploreFragment"
+    android:background="#00BCD4"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rietpic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+
+        android:text="Campus Quick Links" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"
+            android:background="#fff"
+            android:padding="8dp"
+            android:id="@+id/abtbtn"
+
+            android:text="Overview"  />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:background="#fff"
+            android:padding="8dp"
+            android:id="@+id/coursebtn"
+
+            android:text="Courses Offered" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="4dp"
+            android:background="#fff"
+            android:padding="8dp"
+            android:text="Navigation"
+
+            android:id="@+id/navigbtn"/>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="4dp"
+            android:background="#fff"
+            android:padding="8dp"
+
+            android:text="Online Exams" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        android:text="Upcoming Events" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:background="#fff"
+                    android:padding="4dp"
+
+                    android:text="onam 2019" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_marginRight="16dp"
+                    android:padding="4dp"
+
+
+                    android:text="Riet Industrial Visit" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_marginRight="16dp"
+                    android:padding="4dp"
+
+                    android:text="Solar Alliance Workshop" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_marginRight="16dp"
+                    android:padding="4dp"
+
+                    android:text="Food Festival - RIHMCT Image Button" />
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+</LinearLayout>

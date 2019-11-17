@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="56dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".VisitorExploreFragment"
+    android:background="#2196F3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+
+            android:text="Institutions" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#fff"
+                    android:padding="8dp"
+
+
+                    android:text="RIET image button" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#fff"
+                    android:padding="8dp"
+
+                    android:text="RBS \n Image Button" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#fff"
+                    android:padding="8dp"
+
+                    android:text="RIHMCT \n Image Button"  />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#fff"
+                    android:padding="8dp"
+
+                    android:text="RPC \n Image Button" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="16dp"
+            android:padding="4dp"
+
+            android:text="Annual Events" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:background="#fff"
+                    android:layout_marginRight="16dp"
+                    android:padding="4dp"
+
+                    android:text="ITIHA - RIET Image Buttn" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:background="#fff"
+                    android:layout_marginRight="16dp"
+                    android:padding="4dp"
+
+
+                    android:text="LE-EMPEROZA - RBS Image Button" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:background="#fff"
+                    android:layout_marginRight="16dp"
+                    android:padding="4dp"
+
+                    android:text="Zerron - RIET Image Button" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:background="#fff"
+                    android:layout_marginRight="16dp"
+                    android:padding="4dp"
+
+                    android:text="Food Festival - RIHMCT Image Button" />
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:layout_marginTop="16dp"
+
+            android:text="Useful Links"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:background="#fff"
+                android:layout_marginRight="8dp"
+
+                android:text="RIET Website"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:background="#fff"
+                android:layout_marginRight="8dp"
+
+                android:text="RBS Website"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="#fff"
+
+                android:text="RIHMCT Website"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

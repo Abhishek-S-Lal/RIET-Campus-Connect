@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Campus Connect</string>
+    <string name="title_activity_visitor">Welcome to Rajadhani Campus</string>
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_more">More</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="RGIAbout">
+        Rajadhani group an established group in the capital city of God\'s own country owning fourten star classified hotels in and around Trivandrum had ventured into the fields of education. The first of its education Institution is Rajadhani Institute of Hotel Management(RIHM) established in 2007 under Indira Charitable Trust. Rajadhani Group of institutions comprises of Rajadhani Institute of Hotel Management(RIHM), RIET(Rajadhani Institiute of Engineering and Technology), Rajadhani Business School(RBS), Rajadhani Institute of Hotel Management and Catering Technology(RIHMCT). The college has been provided with world class infrastructure and amenities, well qualified and experienced teachers, efficient supporting techical staff, comfortable and convenient conveyance facilities and most congenial environment for teaching, which is a learning process.
+        \n \n At RIET, RBS and RIHMCT besides learning theoretical concepts, the empahsis is more on its application in real life. The institute offers accurately focused short and long duration courses designed to provide employment and entrepreneurial opportunities in India and abroad.
+        \n \n \"A dream becomes a goal when action is taken towards its achievement\"
+        \n \n And we are commited in taking constructive and purposeful actions to produce optimistic, independent, compassionate, life-long learners and leaders who will bring glory to the campus, state and the nation.
+    </string>
+
+    <string name="Campus">
+        The campus is nestled among the pristine hillocks of Nagaroor, about 30 Kms from the capital city of Thiruvananthapuram. The serene and natural habitat is one of the most suited locations, setting the right tone and mood for learning. The journey to the campus twists and turns through the greenery and overlooks a valley of dense trees and granite rocks of unimaginable splendor.
+        \n \n The main block of the institute is an archietectural marvel and stands high merging with the natural topography. The buildings blend with the natural surrounding and the Institute is conceived as an eco-friendly, energy efficient green campus. The design of campus in the natural backdrop is sure to get imprinted into the minds of the visitors and students.The main block has class rooms, seminar halls,library and administrative office. This block further leads to the sprawling food court, flanked by separate dining areas for boys and girls and having access to respective hostels. The well separated hostel blocks are equipped with fitness centres and facilities for recreation.The coffee shop caters to the students and visitors.
+        \n \n While the scenic beauty is captivating, the campus also enjoys close proximity to the global Technology hub of Technopark(15kms) and the upcoming Technocity(10kms), both home ot many Multi National Companies like Allianz Cornhill, UST Global, IBS, TCS, Infosys etc.
+    </string>
+
+    <string name="Lifeatcampus">
+        Learning is not effective without the avenue for venting the stress of a demanding curriculum. Remember “All work and no play makes Jack a dullboy”. Even the most studious student can find the pressures of purely academic life monotonous and boring. Further, the extra-curricular activities are helpful in shaping the overall personality of the students and in bringing out their hidden potential. RIET students are a mix from different backgrounds, culture and schooling with only one common goal to be excellent engineers.
+        \n \n The campus life provides the opportunity to understand and learn other cultures, shed inhibitions and work as a team. There are various campus activities like technology /scientific clubs, technical fests, sports, cultural activities, celebrations and student clubs etc. that provide the platform for showcasing individual talents and creativity of the students. These activities also build organizational capabilities amongst the students and pave way to their leadership development. Fun in campus, however, is neither a compromise in discipline and rules, nor in academic performance.
+    </string>
+
+    <string name="riethighlights">
+        • World class infrastructure and laboratories\n
+        • Highly qualified and experienced faculty members\n
+        • Smart classrooms with e-learning facilities\n
+        • Central Technical Library and Digital Resource Centre\n
+        • Excellent Placement records\n
+        • Authorised training centres of SAP, Apple, ASAP, PMKVY, SRC, Cambridge-BEC and Microsoft Programmes\n
+        • MoUs with major industries like Microsoft, NASSCOM, TAAL, Barola Technologies, ESSCI and ORACLE Workforce Development Program\n
+        • Permanent association with flight testing division, Dept. of Aerospace, IIT-Kanpur\n
+        • Online Campus Academic Management Software enabled for students, faculty members and parents\n
+        • Wi-Fi enabled campus\n
+        • Centre for Interdisciplinary Research and Consultancy\n
+        • SEP supported by Energy Management Centre, Govt. of Kerala\n
+        • IEDC supported by Kerala State Start-Up Mission\n
+        • Research grants from government organizations\n
+        • Scholarships for meritorious students in scholastic and sports\n
+        • Separate hostel facilities for boys and girls with AC and Non - AC options\n
+        • Luxury AC buses for daily commutation from all major destinations\n
+        • Luxurious Guest Rooms for parents and guardians visiting their wards availableinside the campus\n
+        • ATM inside the campus\n
+        • Overseas internship in Dubai and UK\n
+        • Training Partnership with ANERT\n
+    </string>
+    <string name="title_activity_campus_navigation">Campus Navigation</string>
+    <string name="tab_text_1">Quick</string>
+    <string name="tab_text_2">Nalanda</string>
+    <string name="tab_text_3">Nirman</string>
+    <string name="tab_text_4">Yantra</string>
+
+
+    //NALANDA BLOCK
+
+    <string name="floor">
+        • G01- General Manager\n
+        • G02- \n
+        • G03- Seminar Hall\n
+        • G04- \n
+        • G05-\n
+        • G06-\n
+        • G07-\n
+        • LOBBY\n
+    </string>
+    <string name="floor1">
+        •  101- Sickroom\n
+        •  102- Exam Cell\n
+        •  103- Office\n
+        •  104- Principal\n
+        •  105- Vice Principal\n
+        •  106- Lab 1\n
+        •  107- Lab 2\n
+        •  108- Lab 3\n
+
+    </string>
+
+    <string name="floor2">
+        •  201- Hotel Department\n
+        •  202- Exam Cell\n
+        •  203- class room\n
+        •  204- classroom\n
+        •  205- class room\n
+        •  206- internet lab\n
+        •  207- class room\n
+        •  208- LIBRARY\n
+
+    </string>
+    <string name="floor3">
+         • 301- RIHMCT kitchen
+         • 302-
+         • 303-
+         • 304-
+         • 305-
+         • 306-
+         • 307-
+         • 308-
+    </string>
+
+    <string name="floor4">
+         • 401-
+
+
+         • 402-
+         • 403-
+         • 404-
+         • 405-
+         • 406-
+         • 407-
+         • 408-
+    </string>
+
+
+    //NIRMAN
+
+    <string name="nfloor3">
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+</string>
+
+    <string name="nfloor2">
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+</string>
+
+    <string name="nfloor1">
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+</string>
+
+    <string name="GroundFloor">
+    • -
+    •
+    •
+    •
+    •
+    •
+    •
+    •
+    </string>
+
+
+    <string name="Underground1">
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+</string>
+    <string name="Underground2">
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+</string>
+    <string name="Underground3">
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+        •
+</string>
+
+</resources>

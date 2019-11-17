@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".QuickTab">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="OFFICE"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:background="#E91E63"
+        /> <Button
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:text="iON DIGITAL ZONE"
+    android:textSize="40dp"
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"
+    android:drawableLeft="@drawable/ic_launcher4"
+    android:background="#4CAF50"
+    />
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="CHAIRMAN"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_launcher9"
+        android:background="#9C27B0"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="PRINCIPAL"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_launcher1"
+        android:background="#3F51B5"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="MAIN AUDITORIUM"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_launcher11"
+        android:background="#FF5722"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="CANTEEN"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_launcher15"
+        android:background="#FFEB3B"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="STORE"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_launcher6"
+        android:background="#03A9F4"
+        />
+
+    </LinearLayout>
+
+</ScrollView>
