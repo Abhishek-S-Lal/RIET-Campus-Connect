@@ -1,4 +1,4 @@
-package com.abhishekslal.android.campusconnect.ui.main;
+package com.abhishekslal.android.campusconnect.visitor.ui.main;
 
 import androidx.arch.core.util.Function;
 import androidx.lifecycle.LiveData;

@@ -12,7 +12,7 @@
         Rajadhani group an established group in the capital city of God\'s own country owning fourten star classified hotels in and around Trivandrum had ventured into the fields of education. The first of its education Institution is Rajadhani Institute of Hotel Management(RIHM) established in 2007 under Indira Charitable Trust. Rajadhani Group of institutions comprises of Rajadhani Institute of Hotel Management(RIHM), RIET(Rajadhani Institiute of Engineering and Technology), Rajadhani Business School(RBS), Rajadhani Institute of Hotel Management and Catering Technology(RIHMCT). The college has been provided with world class infrastructure and amenities, well qualified and experienced teachers, efficient supporting techical staff, comfortable and convenient conveyance facilities and most congenial environment for teaching, which is a learning process.
         \n \n At RIET, RBS and RIHMCT besides learning theoretical concepts, the empahsis is more on its application in real life. The institute offers accurately focused short and long duration courses designed to provide employment and entrepreneurial opportunities in India and abroad.
         \n \n \"A dream becomes a goal when action is taken towards its achievement\"
-        \n \n And we are commited in taking constructive and purposeful actions to produce optimistic, independent, compassionate, life-long learners and leaders who will bring glory to the campus, state and the nation.
+        \n \n And we are committed in taking constructive and purposeful actions to produce optimistic, independent, compassionate, life-long learners and leaders who will bring glory to the campus, state and the nation.
     </string>
 
     <string name="Campus">
@@ -49,11 +49,12 @@
         • Overseas internship in Dubai and UK\n
         • Training Partnership with ANERT\n
     </string>
+
     <string name="title_activity_campus_navigation">Campus Navigation</string>
-    <string name="tab_text_1">Quick</string>
-    <string name="tab_text_2">Nalanda</string>
-    <string name="tab_text_3">Nirman</string>
-    <string name="tab_text_4">Yantra</string>
+    <string name="navigation_tab_text_1">Quick</string>
+    <string name="navigation_tab_text_2">Nalanda</string>
+    <string name="navigation_tab_text_3">Nirman</string>
+    <string name="navigation_tab_text_4">Yantra</string>
 
 
     //NALANDA BLOCK
@@ -193,5 +194,68 @@
         •
         •
 </string>
+
+    //student login start
+    <string name="welcome_to">Welcome to</string>
+    <string name="rajadhani_campus_connect">Campus Connect</string>
+    <string name="username_hint">Enter your admission no.</string>
+    <string name="username">admisson no.</string>
+    <string name="password_hint">*******</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="bottom_credits">An Initiative by Students of RIET\nDeveloped by CSE 2017 21 Batch</string>
+    <string name="password">password</string>
+    <string name="i_am_a_visitor">I am a Visitor</string>
+    //student login end
+
+    <string name="title_visitor_navigation_activity">Campus Navigation</string>
+
+    <string name="title_activity_student_main">Campus Connect</string>
+    <string name="student_tab_text_1">Home</string>
+    <string name="student_tab_text_2">Linways</string>
+    <string name="student_tab_text_3">Connect</string>
+    <string name="courses_offered_title">Courses Offered Activity</string>
+    <string name="quick_tab_button1_title">OFFICE</string>
+    <string name="quick_tab_button2_title">iON DIGITAL ZONE</string>
+    <string name="quick_tab_button3_title">CHAIRMAN</string>
+    <string name="quick_tab_button4_title">PRINCIPAL</string>
+    <string name="quick_tab_button5_title">MAIN AUDITORIUM</string>
+    <string name="quick_tab_button6_title">CANTEEN</string>
+    <string name="quick_tab_button7_title">STORE</string>
+    <string name="visitor_more_button1_title">Facilities</string>
+    <string name="visitor_more_button2_title">Food Court</string>
+    <string name="visitor_more_button3_title">Campus Location</string>
+    <string name="visitor_more_button4_title">How to reach</string>
+    <string name="visitor_more_button5_title">Nearby</string>
+    <string name="visitor_more_button6_title">Emergency Contacts</string>
+    <string name="visitor_more_button7_title">Contact us</string>
+    <string name="visitor_more_button8_title">Feedback</string>
+
+    <string name="main_welcome_text">Welcome to Rajadhani Campus Connect</string>
+    <string name="main_button1_title">Visitor</string>
+    <string name="main_button2_title">Student</string>
+    <string name="main_button3_title">Staff</string>
+    <string name="main_button4_title">Admin</string>
+    <string name="app_fullname">Rajadhani Campus Connect</string>
+    <string name="under_ground_3">UNDER GROUND 3</string>
+    <string name="under_ground_2">UNDER GROUND 2</string>
+    <string name="under_ground_1">UNDER GROUND 1</string>
+    <string name="ground_floor">GROUND FLOOR</string>
+    <string name="first_floor">FIRST FLOOR</string>
+    <string name="second_floor">SECOND FLOOR</string>
+    <string name="third_floor">THIRD FLOOR</string>
+    <string name="fourth_floor">FOURTH FLOOR</string>
+
+    <string name="campus_quick_links">Campus Quick Links</string>
+    <string name="visitor_home_button1_title">Overview</string>
+    <string name="visitor_home_button2_title">Courses Offered</string>
+    <string name="visitor_home_button3_title">Navigation</string>
+    <string name="visitor_home_button4_title">Online Exams</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="up_event1_title">onam 2019</string>
+    <string name="up_event2_title">Riet Industrial Visit</string>
+    <string name="up_event3_title">Solar Alliance Workshop</string>
+    <string name="up_event4_title">Food Festival - RIHMCT Image Button</string>
+
 
 </resources>

@@ -10,35 +10,61 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CampusNavigation"
-            android:label="@string/title_activity_campus_navigation"
-            android:parentActivityName=".VisitorActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.abhishekslal.android.campusconnect.VisitorActivity" />
-        </activity>
-        <activity android:name=".CoursesOffered" />
-        <activity android:name=".AboutCampus" />
+            android:name=".student.StudentMainActivity"
+            android:label="@string/title_activity_student_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".VisitorMoreFragment"
-            android:label="@string/title_more" />
-        <activity
-            android:name=".VisitorExploreFragment"
-            android:label="@string/title_explore" />
-        <activity
-            android:name=".VisitorHomeFragment"
-            android:label="@string/title_home" />
-        <activity
-            android:name=".VisitorActivity"
-            android:label="@string/title_activity_visitor" />
-        <activity android:name=".MainActivity">
+            android:name=".student.StudentLogin"
+            android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".visitor.CampusNavigation"
+            android:label="@string/title_activity_campus_navigation"
+            android:parentActivityName=".visitor.VisitorActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abhishekslal.android.campusconnect.visitor.VisitorActivity" />
+        </activity>
+        <activity
+            android:name=".visitor.CoursesOffered"
+            android:label="Courses Offered"
+            android:parentActivityName=".visitor.VisitorActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abhishekslal.android.campusconnect.visitor.VisitorActivity" />
+        </activity>
+        <activity
+            android:name=".visitor.AboutCampus"
+            android:label="About Campus"
+            android:parentActivityName=".visitor.VisitorActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abhishekslal.android.campusconnect.visitor.VisitorActivity" />
+        </activity>
+        <activity
+            android:name=".visitor.VisitorMoreFragment"
+            android:label="@string/title_more" />
+        <activity
+            android:name=".visitor.VisitorExploreFragment"
+            android:label="@string/title_explore" />
+        <activity
+            android:name=".visitor.VisitorHomeFragment"
+            android:label="@string/title_home" />
+        <activity
+            android:name=".visitor.VisitorActivity"
+            android:parentActivityName=".student.StudentLogin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abhishekslal.android.campusconnect.student.StudentLogin" />
+        </activity>
+        <activity android:name=".visitor.MainActivity" />
     </application>
 
 </manifest>

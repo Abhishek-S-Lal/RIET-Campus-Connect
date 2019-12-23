@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="20dp"
-    tools:context=".QuickTab">
+    tools:context=".visitor.QuickTab">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,20 +16,23 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:text="OFFICE"
-        android:textSize="40dp"
+        android:background="#E91E63"
+        android:drawableStart="@drawable/ic_launcher"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/ic_launcher"
-        android:background="#E91E63"
-        /> <Button
+        android:text="@string/quick_tab_button1_title"
+        android:textSize="40sp" />
+
+        <Button
     android:layout_width="match_parent"
     android:layout_height="140dp"
-    android:text="iON DIGITAL ZONE"
-    android:textSize="40dp"
+            android:drawableStart="@drawable/ic_launcher4"
+            android:text="@string/quick_tab_button2_title"
     android:textStyle="bold"
     android:layout_marginBottom="20dp"
     android:drawableLeft="@drawable/ic_launcher4"
+            android:textSize="40sp"
     android:background="#4CAF50"
     />
 
@@ -41,42 +43,46 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:text="CHAIRMAN"
-        android:textSize="40dp"
+        android:drawableStart="@drawable/ic_launcher9"
+        android:text="@string/quick_tab_button3_title"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/ic_launcher9"
+        android:textSize="40sp"
         android:background="#9C27B0"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:text="PRINCIPAL"
-        android:textSize="40dp"
+        android:drawableStart="@drawable/ic_launcher1"
+        android:text="@string/quick_tab_button4_title"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/ic_launcher1"
+        android:textSize="40sp"
         android:background="#3F51B5"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:text="MAIN AUDITORIUM"
-        android:textSize="40dp"
+        android:drawableStart="@drawable/ic_launcher11"
+        android:text="@string/quick_tab_button5_title"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/ic_launcher11"
+        android:textSize="40sp"
         android:background="#FF5722"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:text="CANTEEN"
-        android:textSize="40dp"
+        android:drawableStart="@drawable/ic_launcher15"
+        android:text="@string/quick_tab_button6_title"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/ic_launcher15"
+        android:textSize="40sp"
         android:background="#FFEB3B"
         />
 
@@ -85,11 +91,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:text="STORE"
-        android:textSize="40dp"
+        android:drawableStart="@drawable/ic_launcher6"
+        android:text="@string/quick_tab_button7_title"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/ic_launcher6"
+        android:textSize="40sp"
         android:background="#03A9F4"
         />
 

@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding= "16dp"
-    tools:context=".AboutCampus"
+    tools:context=".visitor.AboutCampus"
     android:background="#F0F8FC">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:background="#EBE4E4"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
             android:text="About"/>
 
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:background="#EBE4E4"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
             android:layout_marginBottom="16dp"
 
             android:text="Highlights" />
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:background="#EBE4E4"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
             android:layout_marginBottom="16dp"
 
             android:text="Campus" />
@@ -119,7 +119,7 @@
             android:layout_height="wrap_content"
             android:background="#EBE4E4"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
             android:layout_marginBottom="16dp"
 
             android:text="Life at Campus" />

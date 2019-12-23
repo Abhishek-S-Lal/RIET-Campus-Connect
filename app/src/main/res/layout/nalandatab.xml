@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".NalandaTab">
+    tools:context=".visitor.NalandaTab">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -24,9 +24,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="GROUND FLOOR"
+            android:text="@string/ground_floor"
             android:textColor="#F5EEEE"
             android:textStyle="bold"/>
 
@@ -54,9 +54,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="FIRST FLOOR"
+            android:text="@string/first_floor"
             android:textColor="#FFFFFF"
             android:textStyle="bold"/>
 
@@ -85,9 +85,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="SECOND FLOOR"
+            android:text="@string/second_floor"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
         <com.borjabravo.readmoretextview.ReadMoreTextView
@@ -110,9 +110,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="THIRD FLOOR"
+            android:text="@string/third_floor"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
         <com.borjabravo.readmoretextview.ReadMoreTextView
@@ -136,9 +136,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="FOURTH FLOOR"
+            android:text="@string/fourth_floor"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
         <com.borjabravo.readmoretextview.ReadMoreTextView

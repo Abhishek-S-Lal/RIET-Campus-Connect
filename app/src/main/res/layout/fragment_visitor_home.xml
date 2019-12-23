@@ -9,9 +9,9 @@
     android:paddingRight="16dp"
     android:paddingLeft="16dp"
     android:paddingBottom="16dp"
-    tools:context=".VisitorExploreFragment"
+    android:orientation="vertical"
     android:background="#00BCD4"
-    android:orientation="vertical">
+    tools:context=".visitor.VisitorExploreFragment">
 
 
     <ImageView
@@ -25,11 +25,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="10sp"
+        android:text="@string/campus_quick_links"
         android:layout_marginTop="4dp"
         android:padding="4dp"
 
-        android:text="Campus Quick Links" />
+        android:textSize="12sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,22 +39,24 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
             android:background="#fff"
             android:padding="8dp"
             android:id="@+id/abtbtn"
 
-            android:text="Overview"  />
+            android:text="@string/visitor_home_button1_title" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
             android:background="#fff"
             android:padding="8dp"
             android:id="@+id/coursebtn"
 
-            android:text="Courses Offered" />
+            android:text="@string/visitor_home_button2_title" />
 
     </LinearLayout>
     
@@ -67,9 +69,10 @@
             android:layout_weight="1"
             android:layout_marginTop="8dp"
             android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
             android:background="#fff"
             android:padding="8dp"
-            android:text="Navigation"
+            android:text="@string/visitor_home_button3_title"
 
             android:id="@+id/navigbtn"/>
 
@@ -80,10 +83,11 @@
             android:layout_weight="1"
             android:layout_marginTop="8dp"
             android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
             android:background="#fff"
             android:padding="8dp"
 
-            android:text="Online Exams" />
+            android:text="@string/visitor_home_button4_title" />
 
     </LinearLayout>
 
@@ -91,10 +95,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="10sp"
+        android:text="@string/upcoming_events"
         android:layout_marginTop="8dp"
         android:padding="4dp"
-        android:text="Upcoming Events" />
+        android:textSize="12sp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -110,38 +114,42 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
                     android:background="#fff"
                     android:padding="4dp"
 
-                    android:text="onam 2019" />
+                    android:text="@string/up_event1_title" />
 
                 <Button
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#fff"
                     android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
                     android:padding="4dp"
 
 
-                    android:text="Riet Industrial Visit" />
+                    android:text="@string/up_event2_title" />
 
                 <Button
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#fff"
                     android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
                     android:padding="4dp"
 
-                    android:text="Solar Alliance Workshop" />
+                    android:text="@string/up_event3_title" />
 
                 <Button
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#fff"
                     android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
                     android:padding="4dp"
 
-                    android:text="Food Festival - RIHMCT Image Button" />
+                    android:text="@string/up_event4_title" />
 
 
             </LinearLayout>

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".NirmanTab">
+    tools:context=".visitor.NirmanTab">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -17,6 +17,7 @@
             android:layout_height="101dp"
             android:src="@drawable/rgilogo"
             android:paddingBottom="20dp"
+            android:contentDescription="logo"
 
             />
 
@@ -25,9 +26,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="UNDER GROUND 3"
+            android:text="@string/under_ground_3"
             android:textColor="#F5EEEE"
             android:textStyle="bold"/>
 
@@ -46,18 +47,15 @@
             android:text="@string/Underground3"/>
 
 
-
-
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="UNDER GROUND 2"
+
+            android:text="@string/under_ground_2"
             android:textColor="#FFFFFF"
             android:textStyle="bold"/>
 
@@ -86,9 +84,10 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="UNDER GROUND 1"
+
+            android:text="@string/under_ground_1"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
 
@@ -112,9 +111,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="GROUND FLOOR"
+            android:text="@string/ground_floor"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
         <com.borjabravo.readmoretextview.ReadMoreTextView
@@ -138,9 +137,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="FIRST FLOOR"
+            android:text="@string/first_floor"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
         <com.borjabravo.readmoretextview.ReadMoreTextView
@@ -164,9 +163,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="SECOND FLOOR"
+            android:text="@string/second_floor"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
         <com.borjabravo.readmoretextview.ReadMoreTextView
@@ -190,9 +189,9 @@
             android:layout_height="wrap_content"
             android:background="#1E87DA"
             android:textSize="25sp"
-            android:paddingLeft="8dp"
+            android:padding="8dp"
 
-            android:text="THIRD FLOOR"
+            android:text="@string/third_floor"
             android:textColor="#FFFF"
             android:textStyle="bold"/>
         <com.borjabravo.readmoretextview.ReadMoreTextView

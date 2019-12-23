@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding= "16dp"
-    tools:context=".AboutCampus"
+    android:padding="16dp"
+    tools:context=".visitor.AboutCampus"
     android:background="#F0F8FC">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center">
 
-        //Write the code here
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#EBE4E4"
             android:paddingLeft="8dp"
-            android:text="Courses Offered Activity"
+            android:paddingStart="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/courses_offered_title"
 
             android:textSize="25sp" />//Delete this
 
@@ -31,6 +31,7 @@
             android:textSize="20sp"
             android:paddingLeft="8dp"
             android:layout_marginTop="200dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
 
             android:text="Scroll View Linear Layout"/>//Delete this
 
