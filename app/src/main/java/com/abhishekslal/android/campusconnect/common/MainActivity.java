@@ -1,4 +1,4 @@
-package com.abhishekslal.android.campusconnect.visitor;
+package com.abhishekslal.android.campusconnect.common;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.abhishekslal.android.campusconnect.R;
 import com.abhishekslal.android.campusconnect.student.StudentLogin;
+import com.abhishekslal.android.campusconnect.visitor.VisitorActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Visitbutton.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,VisitorActivity.class);
+                Intent intent = new Intent(MainActivity.this, VisitorActivity.class);
                 startActivity(intent);
             }
         });

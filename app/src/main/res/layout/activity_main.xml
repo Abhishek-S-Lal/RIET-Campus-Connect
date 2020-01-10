@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".visitor.MainActivity"
+    tools:context=".common.MainActivity"
     android:background="#00BCD4">
 
     <TextView
@@ -86,7 +86,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:contentDescription="cover pic"
+        android:contentDescription="@string/app_name"
         android:src="@drawable/rietpic" />
 
     <TextView

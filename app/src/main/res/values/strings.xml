@@ -257,5 +257,12 @@
     <string name="up_event3_title">Solar Alliance Workshop</string>
     <string name="up_event4_title">Food Festival - RIHMCT Image Button</string>
 
+    //Navigation Drawer starts
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    //Navigation Drawer ends
 
 </resources>
