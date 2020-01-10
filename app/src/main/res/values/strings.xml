@@ -261,7 +261,20 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="student_menu_settings">Settings</string>
+    <string name="student_menu_logout">Log Out</string>
+
+    <string name="student_nav_1_title">Home</string>
+    <string name="student_nav_2_title">Profile</string>
+    <string name="student_nav_3_title">Notifications</string>
+    <string name="student_nav_4_title">Announcements</string>
+    <string name="student_nav_5_title">View as Visitor</string>
+    <string name="student_nav_separator_title">Other</string>
+    <string name="student_nav_6_title">About Us</string>
+    <string name="student_nav_7_title">Share</string>
+    <string name="student_nav_8_title">Developers</string>
+    <string name="student_nav_9_title">Rate Us</string>
+
 
     //Navigation Drawer ends
 
