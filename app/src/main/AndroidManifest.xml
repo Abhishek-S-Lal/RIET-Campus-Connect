@@ -12,16 +12,23 @@
         <activity
             android:name=".student.StudentMainActivity"
             android:label="@string/title_activity_student_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".student.StudentLogin"
-            android:theme="@style/FullScreen">
+            android:name=".common.SplashScreen"
+            android:noHistory="true"
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".student.StudentLogin"
+            android:theme="@style/FullScreen" />
+
         <activity
             android:name=".visitor.CampusNavigation"
             android:label="@string/title_activity_campus_navigation"
@@ -64,7 +71,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.abhishekslal.android.campusconnect.student.StudentLogin" />
         </activity>
-        <activity android:name=".visitor.MainActivity" />
+        <activity android:name=".common.MainActivity" />
     </application>
 
 </manifest>

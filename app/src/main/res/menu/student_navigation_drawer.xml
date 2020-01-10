@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/ic_home_white"
+            android:title="@string/student_nav_1_title" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_account_circle_white"
+            android:title="@string/student_nav_2_title" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/student_nav_3_title" />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@drawable/ic_announce"
+            android:title="@string/student_nav_4_title" />
+
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@drawable/ic_view_as"
+            android:title="@string/student_nav_5_title" />
+    </group>
+
+    <item android:title="@string/student_nav_separator_title">
+        <menu>
+            <item
+                android:id="@+id/nav_6"
+                android:icon="@drawable/ic_info"
+                android:title="@string/student_nav_6_title" />
+            <item
+                android:id="@+id/nav_7"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/student_nav_7_title" />
+
+            <item
+                android:id="@+id/nav_8"
+                android:icon="@drawable/ic_developer"
+                android:title="@string/student_nav_8_title" />
+            <item
+                android:id="@+id/nav_9"
+                android:icon="@drawable/ic_rateus"
+                android:title="@string/student_nav_9_title" />
+        </menu>
+    </item>
+
+</menu>

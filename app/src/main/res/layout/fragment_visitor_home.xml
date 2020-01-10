@@ -10,7 +10,7 @@
     android:paddingLeft="16dp"
     android:paddingBottom="16dp"
     android:orientation="vertical"
-    android:background="#00BCD4"
+    android:background="@color/colorVisitorBackground"
     tools:context=".visitor.VisitorExploreFragment">
 
 
