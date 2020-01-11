@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".visitor.breakfast">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.MASALA DOSA"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.APPAM AND CURRY"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.PUTTU AND CURRY"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download1"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.DOSA AND CURRY"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download3"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.CHAPPATHI AND CURRY"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download2"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.UPPUMAVU"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download4"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

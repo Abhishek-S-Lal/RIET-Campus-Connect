@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".visitor.foodcourt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:text="FOOD COURT"
+            android:textAlignment="center"
+            android:textColor="#02233C"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/foodcourt"
+            android:scaleType="centerCrop"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="MENU:-"
+            android:textColor="#070000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="BREAKFAST"
+            android:background="#723725"
+            android:textSize="20sp"
+            android:id="@+id/breakfast"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CC840E"
+            android:text="LUNCH"
+            android:layout_margin="4dp"
+            android:id="@+id/lunch"
+            android:textSize="20sp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SNACKS"
+            android:background="#0B685F"
+            android:layout_margin="4dp"
+            android:id="@+id/snacks"
+            android:textSize="20sp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JUICES"
+            android:background="#AADD6E"
+            android:layout_margin="4dp"
+            android:id="@+id/jucies"
+            android:textSize="20sp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPECIALS"
+            android:background="#F5DD07"
+            android:layout_margin="4dp"
+            android:id="@+id/specials"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALL ATM CARDS ARE ACCEPTED HERE"
+            android:textColor="#D81111"
+            android:textAlignment="center"
+            android:padding="30dp"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</ScrollView>
