@@ -59,12 +59,15 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold"/>
 
-        <ImageButton
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+
             android:src="@drawable/images">
 
-        </ImageButton>
+        </ImageView>
         <com.borjabravo.readmoretextview.ReadMoreTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

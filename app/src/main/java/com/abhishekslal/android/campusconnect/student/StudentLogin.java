@@ -47,7 +47,7 @@ public class StudentLogin extends AppCompatActivity {
                     // Replace with Linways Aunthentication statements
 
                     //Test Login Start
-                    if (admission_no.equals("291017") && password.equals("121212")) {
+                    if (admission_no.equals("7141") && password.equals("aqwe")) {
                         Toast.makeText(StudentLogin.this, "Test Login Successfull!", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(StudentLogin.this, StudentMainActivity.class);
                         startActivity(intent);
