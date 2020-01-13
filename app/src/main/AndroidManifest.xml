@@ -9,12 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".student.StudentProfile"></activity>
+        <activity
+            android:name=".student.StudentProfile"
+            android:parentActivityName=".student.StudentMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abhishekslal.android.campusconnect.student.StudentMainActivity" />
+        </activity>
         <activity
             android:name=".student.StudentMainActivity"
             android:label="@string/title_activity_student_main"
             android:noHistory="true"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/MaterialHighlight">
+
+        </activity>
         <activity
             android:name=".common.SplashScreen"
             android:noHistory="true"
@@ -25,9 +33,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".student.StudentLogin"
-            android:theme="@style/FullScreen" />
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/FullScreen">
+
+        </activity>
         <activity
             android:name=".visitor.CampusNavigation"
             android:label="@string/title_activity_campus_navigation"
