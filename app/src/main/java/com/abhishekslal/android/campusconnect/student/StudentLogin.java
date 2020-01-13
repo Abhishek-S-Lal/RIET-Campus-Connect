@@ -33,12 +33,12 @@ public class StudentLogin extends AppCompatActivity {
                 String password = pswd.getText().toString();
 
 
-                if (admission_no.isEmpty() && password.isEmpty()) {
+                if (("".equals(admission_no)) && ("".equals(password))) {
                     Toast.makeText(StudentLogin.this, "Fields are empty", Toast.LENGTH_SHORT).show();
-                } else if (password.isEmpty()) {
+                } else if ("".equals(password)) {
                     pswd.setError("Please enter your Linways password");
                     pswd.requestFocus();
-                } else if (admission_no.isEmpty()) {
+                } else if ("".equals(admission_no)) {
                     admsnNo.setError("Please enter admission number");
                     admsnNo.requestFocus();
                 } else //if (!(admission_no.isEmpty() && password.isEmpty()))
@@ -67,9 +67,16 @@ public class StudentLogin extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(StudentLogin.this, VisitorActivity.class);
                 startActivity(intent);
+
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();//to kill the activity so that the user cannot go back
+        moveTaskToBack(true);
     }
 }
 
