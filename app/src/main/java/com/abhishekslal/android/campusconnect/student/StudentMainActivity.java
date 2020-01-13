@@ -98,7 +98,7 @@ public class StudentMainActivity extends AppCompatActivity {
                         Toast.makeText(StudentMainActivity.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
                         //Write code for rate us here
                         break;
-
+//
                 }
                 drawer.closeDrawers();
                 return false;
