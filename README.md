@@ -1,6 +1,6 @@
 # RIET-Campus-Connect
 An application for visitors and students of RIET(Rajadhani Institute of Engineering and Technology) college to know the activities and events conducted on our college campus. 
-It was developed as part of my design project during Semester 5 (2019-2020). This was my first attempt in Android Development.
+It was developed as part of my design project during Semester 5 (2019-2020) of my B.Tech education. This was my first attempt in Android Development.
 
 ## Features
 - Separate login for Students, Faculties and Visitors
